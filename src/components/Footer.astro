@@ -1,0 +1,99 @@
+<footer>
+    <div class="footer">
+        <ul><h5>Working hours</h5>
+            <li>Mon-Fri: 9 AM – 5 PM</li>
+            <li>Saturday: Appointment only</li>
+            <li>Sunday: Closed</li>
+        </ul>
+        <ul><h5>Office</h5>
+            <li>
+                <a href="https://maps.app.goo.gl/aac9wQgjjuaMcKJ39" target="_blank"> 5084 Biscayne Blvd Unit #106B, Miami, FL 33137, United States </a>
+            </li>
+            <li><a href="mailto:info@wynwoodfloors.com">info@wynwoodfloors.com</a></li>
+            <li><a href="tel:+17862061111">+1 786 206 1111</a></li>
+        </ul>
+        <ul><h5>Links</h5>
+            <li><a href="./pages/Home.astro">Home</a></li>
+			<li><a href="./Services.astro">Services</a></li>
+            <li><a href="#About">About Us</a></li>
+			<li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul><h5>Get in touch</h5>
+            <li>
+                <a href="https://www.instagram.com/wynwoodfloors/" target="_blank">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">Instagram
+                </a> 
+            </li>
+           <li>
+            <a href="https://www.facebook.com/wynwoodfloors/" target="_blank">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png">Facebook
+            </a>
+           </li>
+
+        </ul>
+    </div>
+    <hr>
+    <div class="pp">
+        <a href="#"><h5>Privacy policy</h5></a>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 stupca jednake širine */
+        padding: 20px 0;
+        text-align: center;
+    }
+    footer {
+		background-color:#63574a;
+    	border-top: 2px solid rgb(82, 47, 26) ;
+        color: rgb(234, 229, 200);
+        margin-bottom: 0;
+        padding-bottom: 0;
+	}
+
+    hr {
+		margin-right: 80px;
+        margin-left: 80px;
+	}
+
+    .pp {
+        padding-top:5px ;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+		justify-content: center;
+        align-content: center;
+	}
+
+    h5 {
+		font-size: 22px;
+        font-weight: bold;
+        
+    }
+
+    .logo {
+        width: 20px;          /* mala ikona */
+        height: 20px;
+        vertical-align: middle; /* poravnaj po sredini teksta */
+        margin-right: 8px;     /* malo razmaka između ikone i teksta */
+    }
+
+
+    .footer a {
+        display: inline-flex;           /* stavlja ikonu i tekst u red */
+        align-items: center;            /* vertikalno centriranje */
+        text-decoration: none;
+        color: rgb(234, 229, 200);
+        transition: 0.3s;
+    }
+
+    .footer a:hover {
+        color: black;
+        transform: scale(1.2);
+    }
+
+
+</style>

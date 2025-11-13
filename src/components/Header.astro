@@ -1,0 +1,87 @@
+<header>
+	<nav>
+		<img src="https://wynwoodfloors.com/wp-content/uploads/2023/08/wynwoodfloors@3x.png" alt="WYNwood Logo" />
+		<ul>
+			<li><a href="./pages/Home.astro">Home</a></li>
+			<li><a href="./Products.astro">Products</a></li>
+			<li><a href="./Services.astro">Services</a></li>
+            <li><a href="#installaion">Installation</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#About">About Us</a></li>
+			<li><a href="#contact">Contact</a></li>
+            <li><button>Book a Consultation </button></li>
+		</ul>
+	</nav>
+</header>
+
+<style>
+	header {
+		background-color:#63574a;
+    	border-bottom: 2px solid rgb(82, 47, 26) ;
+		padding: 0;
+		position: sticky;
+		top: 0;
+		z-index: 100;
+        font-size: large;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1rem 2rem;
+	}
+
+	img {
+		position: absolute;
+		height: 55px;
+		width: auto;
+		margin-left: 0;
+		left: 25px;
+
+	}
+
+	ul {
+		display: flex;
+		list-style: none;
+		gap: 2rem;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+		flex: 1;
+	}
+
+    button {
+        border-radius: 25px;
+		border: 2px solid rgb(82, 47, 26);
+        height: 45px;
+        width: 200px;		
+		padding-bottom: 6px;
+		padding-top: 6px;
+        background-color: rgb(234, 229, 200);
+		font-size: 21px;
+    }
+
+	a {
+		color: rgb(234, 229, 200);
+		text-decoration: none;
+		font-weight: 500;
+		display: inline-block;
+		transition: color 0.3s ease;
+		font-size: 21px;
+	}
+
+	a:hover {
+		color: black;
+		text-decoration: wavy underline;
+		transform: scale(1.2);
+	}
+
+	button:hover {
+		color: black;
+		transform: scale(1.1);
+	}
+</style>
